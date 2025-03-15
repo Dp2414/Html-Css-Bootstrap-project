@@ -498,8 +498,6 @@ margin:0px 0px 24px;
     color: lightslategray;
     display: flex;
     width: 100%;
- position: relative;
- left: -10px;
 
 }
 
@@ -1175,24 +1173,9 @@ color: red;
     position: relative;
     z-index: 3;
     padding:10px 0px 10px 30px;
-    
+    box-shadow: 0px 15px 15px 10px rgba(0, 0, 0, 0.2);
 }
-.profiles2{
-    width: 350px;
-    
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    align-content: center;
-   
-    background-color: #f86f44;
-    text-align: center;
-    margin-top: -14px;
-    border-radius: 0px 0px 10px 10px;
-    position: relative;
-    z-index: 3;
-    padding:10px 0px 10px 30px;
-}
+
 .names p {
     margin: 0;
 }
@@ -1602,4 +1585,12 @@ z-index: 5;
     background-color: #ea4d27;
     color: white;
   }
- 
+
+  .store>h3:hover{
+    color:#f25028;
+  }
+
+.contactinfo>h3:hover{
+    color: #00a05d;
+   
+}
