@@ -1,0 +1,32 @@
+section{
+    1div{
+        3divwhich are in flex
+    }
+}
+
+section4{
+    div{
+        small{}
+        h2 {}
+        div for whole cards{
+        divs for separate cards {
+        h4 for text }
+div{
+    img {}
+    div{
+    p {
+        stong 
+        small 
+    }
+    div for stars{
+        bootstrap icons
+    }
+    }
+}
+        }
+        p{
+          text and   a(facebook) nd bootstrap icon fb
+        }
+
+    }
+}
