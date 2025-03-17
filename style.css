@@ -136,7 +136,7 @@
         }
 
         @media (max-width: 576px) {
-            .carousel-caption h1 {
+            /* .carousel-caption h1 {
                 font-size: 24px !important;
             }
             
@@ -145,7 +145,7 @@
             }
             
          
-           
+            */
         }
 /* @media (max-width:467px)
 {
@@ -159,7 +159,7 @@
        }
 
 } */
-@media (max-width: 487px) {
+@media (max-width: 509px) {
     /* Hero carousel */
    
     #heroCarousel {
@@ -178,7 +178,7 @@
     
     /* Carousel caption */
     #heroCarousel .carousel-caption {
-        margin: 30px auto !important;
+        margin: auto !important;
         padding: 10px;
         width: 100%;
         left: 0;
@@ -230,12 +230,12 @@
         padding: 5px;
     }
     .carousel-inner{
-        width:50%!important;
-        overflow: hidden !important;
+        width:auto !important;
+        /* overflow: hidden !important; */
     }
     .carousel-item>img{
-        overflow: hidden !important;
-        width: 100px !important ;
+        /* overflow-x: hidden !important; */
+        width:100% ;
     }
 }
         /* ------------About------------- */
@@ -252,6 +252,26 @@
                 width: 100% !important;
                 margin: 15px 0 !important;
             } 
+        }
+        @media (max-width:400px)
+        {
+            /* .text-success{
+                margin-left: -150px;
+            } */
+             .section1{
+                /* text-align: center; */
+                padding: 0;
+             }
+             .story{
+                margin-left: 30px !important;
+             }
+             .div{
+                margin-left: -50px !important;
+               /* justify-content: center; */
+             }
+             .div1{
+                /* text-align: center; */
+             }
         }
         
         /* ----------------------- Section 2---------------- */
@@ -496,6 +516,23 @@ left: 100px !important;
             padding: 5px 10px;
         }
     }
+    @media (max-width:372px) {
+        .intimg:hover{
+            transform: none !important; 
+        }
+        .intimg2:hover{
+            transform: none !important; 
+        }
+        .justimg:hover .intimg{
+            transform: none !important; 
+            transition: transform 0.3s ease-in-out; 
+        }
+        .justimg:hover .intimg2{
+            transform:none !important; 
+            transition: transform 0.3s ease-in-out; 
+        }
+
+    }
         /* ----------------Section 4---------------- */
         /* Reviews section responsive */
         @media (max-width: 1200px) {
@@ -527,7 +564,7 @@ left: 100px !important;
             }
         }
         
-        @media (max-width: 768px) {
+        @media (max-width: 800px) {
             .section4 {
                 padding: 20px 15px;
                 margin-bottom: 60px;
@@ -572,7 +609,7 @@ left: 100px !important;
         }
         }
         
-        @media (max-width: 480px) {
+        @media (max-width: 576px) {
             .section4 {
                 width: auto !important;
                 /* padding: 15px 10px; */
@@ -580,7 +617,7 @@ left: 100px !important;
                 margin-bottom: 40px;
             }
             .c1,.c2,.c3{
-                width: auto !important;
+                width: 100% !important;
             }
             .section4 .innercontent h2 {
                 font-size: 24px;
@@ -622,10 +659,66 @@ left: 100px !important;
             }
             .section4 {
                 margin-bottom: 0 !important;
-                padding-bottom: 20px;
+                /* padding-bottom: 20px; */
             }
+            .profiles{
+                width: 0;
+            }
+           
             
         }
+        @media(max-width:454px){
+            .section4 {
+                width: auto !important;
+                /* padding: 15px 10px; */
+                margin-left: -20px;
+                margin-bottom: 40px;
+            }
+            .c1,.c2,.c3{
+                width: auto !important;
+                margin-left: -100px;
+            }
+        }
+        @media (max-width:372px) {
+            .section4 {
+                width: auto !important;
+                /* padding: 15px 10px; */
+                /* margin-left: -40px; */
+                margin-bottom: 40px;
+            }
+            .c1,.c2,.c3{
+                /* font-size: 8px !important; */
+                /* font-weight: 400 !important; */
+                /* width: auto !important; */
+                margin-left: 20px ;
+               
+                /* margin-left: -110px; */
+               
+               
+            }
+            .wholecards{
+                /* width: 100% !important; */
+                /* margin-left: -150px; */
+               
+                margin-left: -100px !important;
+            }
+            .profiles{
+                /* overflow: hidden; */
+                width:100% !important;
+                height: auto !important;
+                /* flex-direction: column;
+                justify-content: flex-start; */
+            }
+            .cardone,.cardtwo,.cardthree{
+                width: 100% !important;
+                height:100px !important;
+            }
+            .fb{
+                margin-left: -50px;
+            }
+        }
+            
+        
         /* @media (min-width:768px) and (max-width: 992px) {
               .section4{
                
@@ -854,7 +947,7 @@ left: 100px !important;
         }
         .section5{
             width: 100%;
-            padding-top: 300px !important;
+            /* padding-top: 300px !important; */
         }
         .bigcard{
             width:75% !important;
@@ -944,7 +1037,8 @@ left: 100px !important;
         @media (max-width:1319px)
         {
             .c1:hover,.c2:hover,.c3:hover{
-                transform: scale(0);
+                /* transform: scale(0); */
+                flex-wrap: wrap;
             }
         }
         @media (max-width:767px){
@@ -953,11 +1047,24 @@ left: 100px !important;
                
             }
         }
+        
 
+
+        @media (max-width:576px){
+            .profiles{
+
+                .c1{
+                    font-size: 12px
+                };
+
+            }
+        }
         
   /*----------------------CSS CODE----------------------- */
           
 body{
+    width: 100vw;
+    overflow-x: hidden !important;
     
 font-family:"League Spartan",sans-serif;
 
@@ -1079,6 +1186,7 @@ font-family:"League Spartan",sans-serif;
     }
     .slide{
         height: 90vh;
+        /* border: 3px solid red; */
     }
     .carousel-caption {
         position: absolute;
@@ -1222,6 +1330,7 @@ margin:0px 0px 24px;
     height: 350px;
     border-radius: 100%;
     object-fit: cover;
+
 }
 
 .div{
@@ -1229,6 +1338,7 @@ margin:0px 0px 24px;
     display: flex;
     align-items: center;
     gap: 26px;
+    
    
 }
 .section1{
@@ -1237,6 +1347,7 @@ margin:0px 0px 24px;
     margin: auto;
     position: relative;
     z-index: 10;
+    
 }
 .div1>h2{
     font-size: 48px;
@@ -1291,6 +1402,7 @@ margin:0px 0px 24px;
 }
 .section2{
     position: relative;
+   
 }
 .card{
     position: absolute;
@@ -1298,6 +1410,7 @@ margin:0px 0px 24px;
    top: 100px;
    left: 110px;
    border-radius: 20px;
+  
    
     z-index: 6;
 }
@@ -1351,6 +1464,7 @@ margin:0px 0px 24px;
     margin:auto;
     background-color: white;
     padding: 100px 113px;
+ 
     
     
 }
@@ -1365,7 +1479,7 @@ transition: transform 0.3s ease-in-out;
 
 }
 .intimg:hover{
-    transform: scale(1.1); 
+    /* transform: scale(1.1);  */
 }
 
  
@@ -1475,7 +1589,7 @@ width: 140px;
     transition: transform 0.3s ease-in-out; 
 }
 .intimg2:hover{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 .custom-badge2{
@@ -1767,6 +1881,7 @@ align-content: flex-end;
 .section4{
     padding: 100px 0px 0px 100px;
     background-color: #f9f9f9;
+    
    
 }
 
@@ -1845,6 +1960,7 @@ align-content: flex-end;
 }
 .c1,.c2,.c3{
     border-radius: 20px;
+  
 }
 /*----*/
 .names p {
@@ -1918,11 +2034,13 @@ align-content: flex-end;
     align-content: center;
     align-items: center;
  }
+ .section5{
+  
+   overflow: hidden;
+ }
  .contact-caption>h2{
     font-size: 48px;
-    
-    
-   
+
 
  }
  .contact-caption{

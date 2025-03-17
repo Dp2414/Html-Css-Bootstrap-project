@@ -14,6 +14,19 @@
     <title>Moso Interior</title>
     <link rel="icon" type="image/png" href="./favicon-32x32.png">
     
+    <style>
+        /* Responsive styles for carousel images only below 509px */
+        @media (max-width: 509px) {
+            .d-block.w-100 {
+                /* height: auto !important; */
+                /* min-height: 300px !important; */
+                object-position: left center !important;
+                margin-right: 15% !important;
+                /* max-width: 115% !important; */
+                /* width: 115% !important; */
+            }
+        }
+    </style>
   
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" tabindex="0">
@@ -73,19 +86,19 @@
 
     <!-- Slide 1 -->
     <div class="carousel-item active" data-bs-interval="3000">
-      <img src="./slideshow/interior-wall-mockup-with-sofa-cabinet-living-room-with-empty-white-wall-background-3d-rendering.jpg" class="d-block w-100" alt="Nature">
+      <img src="./slideshow/interior-wall-mockup-with-sofa-cabinet-living-room-with-empty-white-wall-background-3d-rendering.jpg" class="" alt="Nature">
       
     </div>
 
     <!-- Slide 2 -->
     <div class="carousel-item" data-bs-interval="3000">
-      <img src="./slideshow/white-wall-living-room-have-sofa-decoration-3d-rendering.jpg" class="d-block w-100" alt="City">
+      <img src="./slideshow/white-wall-living-room-have-sofa-decoration-3d-rendering.jpg" class="" alt="City">
    
     </div>
 
     <!-- Slide 3 -->
     <div class="carousel-item" data-bs-interval="3000">
-      <img src="./slideshow/wood-sideboard-living-room-interior-with-copy-space.jpg" class="d-block w-100" alt="Ocean">
+      <img src="./slideshow/wood-sideboard-living-room-interior-with-copy-space.jpg" alt="Ocean">
    
     </div>
     
@@ -125,7 +138,7 @@
 <div class="section1 " id="about">
   <div class="div ">
     <div class="div1">
-      <small class="text-success">Our Story</small>
+      <small class="text-success story">Our Story</small>
       <h2><span>Introducing </span>Moso</h2>
       <h4>Since 1986, We crafted interior products for better spaces</h4>
       <p>Moso Interior is a free Bootstrap 5 HTML CSS template for your website. Tooplate is one of the best websites to download 100% free HTML Templates for web designers and developers around the world. Thank you for visiting.</p>
