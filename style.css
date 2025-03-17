@@ -68,7 +68,7 @@
                 width: 80%!important;
                 /* height: 100% !important; */
                 /* margin: 40px auto !important; */
-                padding: 20px;
+                padding-top: 50px;
                } 
                .d-block {
                 width:auto !important;
@@ -161,7 +161,9 @@
 } */
 @media (max-width: 509px) {
     /* Hero carousel */
-   
+   .carousel-caption{
+    padding-top: 100px;
+   }
     #heroCarousel {
         height: auto;
     }
@@ -179,7 +181,7 @@
     /* Carousel caption */
     #heroCarousel .carousel-caption {
         margin: auto !important;
-        padding: 10px;
+        padding-top: 50px;
         width: 100%;
         left: 0;
         right: 0;
@@ -266,7 +268,7 @@
                 margin-left: 30px !important;
              }
              .div{
-                margin-left: -50px !important;
+                margin-left: 0px !important;
                /* justify-content: center; */
              }
              .div1{
