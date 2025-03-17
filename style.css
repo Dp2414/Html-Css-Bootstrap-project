@@ -2238,6 +2238,7 @@ color: #71726a;
 
  .innercontent{
     position: relative;
+    padding: 10px;
  }
  .arrows{
     display: flex;
