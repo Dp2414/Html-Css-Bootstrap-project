@@ -255,6 +255,13 @@
                 margin: 15px 0 !important;
             } 
         }
+
+@media (max-width:678px){
+    .story{
+        margin-left: -200px !important;
+    }
+}
+
         @media (max-width:400px)
         {
             /* .text-success{
@@ -423,11 +430,26 @@ left: 100px !important;
         }
         .interiorcards1,.interiorcards2{
        flex-direction: column;
+       justify-content: center !important;
+       align-content: center !important;
+       align-content: center !important;
+     
+    }
+    
+   
+    .section3{
+        overflow: hidden;
+    }
+    .livingroomimg,.chefimg,.childrenimg{
+        margin-left: 100px !important;
     }
     }
     @media (max-width:550px){
         .justimg{
             width: auto!important;
+        }
+        .livingroomimg,.chefimg,.childrenimg{
+            margin-left: 0px !important;
         }
     }
     @media (max-width: 550px) {
@@ -506,7 +528,8 @@ left: 100px !important;
         
         .pagnav {
             display: flex;
-            flex-wrap: wrap;
+          flex-direction: column;
+          margin: auto;
             justify-content: center;
             gap: 5px;
             padding: 0;
@@ -518,6 +541,7 @@ left: 100px !important;
             padding: 5px 10px;
         }
     }
+  
     @media (max-width:372px) {
         .intimg:hover{
             transform: none !important; 
@@ -680,6 +704,18 @@ left: 100px !important;
                 width: auto !important;
                 margin-left: -100px;
             }
+            .fb{
+                margin-left: -80px !important;
+            }
+        }
+        @media (max-width:425px){
+            .fb{
+                margin-left: -100px !important;
+            }
+        .fbanda{
+            display: flex;
+            flex-direction:column !important;
+        }
         }
         @media (max-width:372px) {
             .section4 {
